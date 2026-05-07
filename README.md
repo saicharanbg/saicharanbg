@@ -17,11 +17,10 @@ Engineering Intern @ Jaris Technologies, France · Available for full-time from 
 
 ## 🚀 About Me
 
-I work at the intersection of **mechanical design**, **robotics systems**, and **aerospace manufacturing** — from designing parametric aircraft models in SolidWorks to building Gazebo-based simulation environments with real-time data integration.
+I work at the intersection of **mechanical design**, **robotics systems**, and **aerospace manufacturing**.
 
 - 🛩️ Currently: Building airport ramp automation simulations for autonomous robotics testing at **Jaris Technologies**
-- 🎓 Studying: **MSc Aerospace Manufacturing** at Cranfield University (Manufacturing and Materials Excellence Scholar — Silver Award)
-- 🤖 Previously: Mechanical Lead at **Technocrats Robotics** — led 5 competition robots to ABU Robocon national finals
+- 🎓 **MSc Aerospace Manufacturing** at Cranfield University · **BTech Mechatronics & Automation** at VIT Chennai
 - 🧪 Researcher: 4 patents granted · 4 peer-reviewed publications
 
 ---
@@ -30,10 +29,9 @@ I work at the intersection of **mechanical design**, **robotics systems**, and *
 
 **CAD & Simulation**
 
-![SolidWorks](https://img.shields.io/badge/SolidWorks-CSWA-red?style=flat)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-red?style=flat)
 ![CATIA V5](https://img.shields.io/badge/CATIA-V5-blue?style=flat)
 ![Fusion 360](https://img.shields.io/badge/Fusion-360-orange?style=flat)
-![Gazebo](https://img.shields.io/badge/Gazebo-Robotics_Sim-lightgrey?style=flat)
 ![ANSYS](https://img.shields.io/badge/ANSYS-FEA-yellow?style=flat)
 ![COMSOL](https://img.shields.io/badge/COMSOL-Multiphysics-darkblue?style=flat)
 ![XFLR5](https://img.shields.io/badge/XFLR5-Aero_Analysis-green?style=flat)
@@ -43,6 +41,7 @@ I work at the intersection of **mechanical design**, **robotics systems**, and *
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![ROS](https://img.shields.io/badge/ROS-Robotics-22314E?style=flat&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-Robotics_Sim-lightgrey?style=flat)
 ![MS Office](https://img.shields.io/badge/MS_Office-Suite-D83B01?style=flat&logo=microsoftoffice&logoColor=white)
 
 ---
@@ -55,7 +54,7 @@ I work at the intersection of **mechanical design**, **robotics systems**, and *
 | 2025 | Sustainable additive manufacturing of recycled PU/PLA composites | *Results in Engineering* | Co-author |
 | 2025 | Piezoelectric energy harvesting using flexible PVDF nanocomposite films | *Discover Materials* | Co-author |
 | 2025 | Advancements in flexible sensor devices for emerging applications | *ICNMD Conference* | Co-author |
-| Under Review | Multimodal drone design and method thereof | — | **First Author** |
+| Under Review | Multimodal drone design and method thereof | — | Co-author |
 
 ### 💡 Patents
 | Year | Title | Patent No. |
@@ -86,15 +85,11 @@ SEM, Raman spectroscopy, and thermal cycling analysis of **hydrogen-assisted spa
 
 ---
 
-## 📊 GitHub Stats
+## 📊 By the Numbers
 
-<div align="center">
-
-![Sai Charan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=saicharanbg&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saicharanbg&layout=compact&theme=default&hide_border=true)
-
-</div>
+| 🏆 4 Patents | 📄 4 Publications | 🤖 5 Competition Robots | 🎓 Silver Scholar |
+|:-----------:|:-----------------:|:----------------------:|:-----------------:|
+| Granted across India & international | Peer-reviewed journals & conferences | ABU Robocon + Technoxian | Cranfield University 2025 |
 
 ---
 
