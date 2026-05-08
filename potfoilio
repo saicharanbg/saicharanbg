@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Charan BG — Aerospace & Mechatronics Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Grid background -->
+  <div class="grid-bg"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav-logo">SC<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="SaiCharan_Resume.pdf" target="_blank" class="nav-resume">
+      <span>Resume</span>
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mm-link">About</a>
+    <a href="#experience" class="mm-link">Experience</a>
+    <a href="#projects" class="mm-link">Projects</a>
+    <a href="#research" class="mm-link">Research</a>
+    <a href="#contact" class="mm-link">Contact</a>
+    <a href="SaiCharan_Resume.pdf" target="_blank" class="mm-link mm-resume">Resume ↗</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-top">
+          <div class="hero-tag">
+            <span class="dot"></span>
+            Available · Sep 2026
+          </div>
+          <div class="hero-tag-right">Cranfield, UK</div>
+        </div>
+
+        <div class="hero-content">
+          <h1 class="hero-name">
+            <span class="line">Sai</span>
+            <span class="line">Charan<span class="accent">.</span></span>
+          </h1>
+          <div class="hero-right-block">
+            <p class="hero-desc">
+              Aerospace Manufacturing Engineer &amp; Mechatronics specialist. Designing systems where mechanical precision meets robotics intelligence — from UAV composites to airport automation.
+            </p>
+            <div class="hero-stats">
+              <div class="hstat">
+                <span class="hstat-n">4</span>
+                <span class="hstat-l">Patents</span>
+              </div>
+              <div class="hstat-div"></div>
+              <div class="hstat">
+                <span class="hstat-n">4</span>
+                <span class="hstat-l">Publications</span>
+              </div>
+              <div class="hstat-div"></div>
+              <div class="hstat">
+                <span class="hstat-n">5</span>
+                <span class="hstat-l">Competition Robots</span>
+              </div>
+            </div>
+            <div class="hero-ctas">
+              <a href="#contact" class="btn-primary">Get in touch</a>
+              <a href="#projects" class="btn-ghost">View work</a>
+            </div>
+            <div class="hero-socials">
+              <a href="https://linkedin.com/in/saicharanbg" target="_blank" class="social-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                LinkedIn
+              </a>
+              <a href="https://www.researchgate.net/profile/Sai-Charan-B-G" target="_blank" class="social-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a12.193 12.193 0 0 0-.208 2.437v.080c0 .938-.019 1.849-.058 2.732-.040.883-.119 1.66-.236 2.330-.117.671-.295 1.191-.533 1.560-.238.369-.567.554-.987.554-.329 0-.608-.080-.837-.240-.229-.160-.416-.403-.562-.730-.146-.327-.256-.729-.331-1.207-.075-.477-.113-1.034-.113-1.669V3.550h-3.094v6.273c0 .938.042 1.830.124 2.677.083.847.246 1.597.491 2.250.245.653.60 1.178 1.062 1.575.46.397 1.053.596 1.780.596.750 0 1.371-.207 1.864-.621.493-.414.884-.97 1.171-1.668v2.019h2.955V7.650c0-.656.080-1.169.240-1.538.160-.368.447-.553.861-.553.329 0 .590.099.782.296.193.198.339.499.440.901.100.404.161.91.182 1.520.020.609.031 1.316.031 2.122v.080c0 2.049-.338 3.619-1.015 4.711-.676 1.091-1.741 1.637-3.192 1.637-1.199 0-2.190-.381-2.973-1.142-.784-.762-1.354-1.813-1.713-3.153L7.5 12.8c.414 1.704 1.163 3.059 2.247 4.066 1.084 1.006 2.483 1.509 4.196 1.509 1.038 0 1.951-.187 2.741-.562.790-.375 1.453-.91 1.990-1.606.537-.696.938-1.527 1.203-2.492.264-.966.397-2.03.397-3.196v-.080c0-1.131-.031-2.14-.093-3.025-.061-.886-.175-1.644-.340-2.274-.166-.630-.396-1.128-.691-1.493-.295-.364-.661-.547-1.100-.547zm-14.025 4.68c-.98 0-1.77.332-2.37.996-.6.664-.9 1.515-.9 2.553 0 1.036.3 1.887.9 2.553.6.664 1.39.996 2.37.996.981 0 1.77-.332 2.37-.996.601-.666.9-1.517.9-2.553 0-1.038-.299-1.889-.9-2.553-.6-.664-1.389-.996-2.37-.996zm0 1.441c.514 0 .922.195 1.224.585.303.39.454.894.454 1.523 0 .63-.151 1.133-.454 1.523-.302.39-.710.585-1.224.585-.513 0-.921-.195-1.224-.585-.302-.390-.453-.893-.453-1.523 0-.629.151-1.133.453-1.523.303-.390.711-.585 1.224-.585z"/></svg>
+                ResearchGate
+              </a>
+              <a href="https://github.com/saicharanbg" target="_blank" class="social-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="mailto:bgsaicharan@gmail.com" class="social-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                Email
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ticker">
+          <div class="ticker-track">
+            <span>Aerospace Manufacturing</span>
+            <span class="t-dot">·</span>
+            <span>Robotics Systems</span>
+            <span class="t-dot">·</span>
+            <span>UAV Design</span>
+            <span class="t-dot">·</span>
+            <span>Composite Materials</span>
+            <span class="t-dot">·</span>
+            <span>CAD / SolidWorks / CATIA</span>
+            <span class="t-dot">·</span>
+            <span>Gazebo Simulation</span>
+            <span class="t-dot">·</span>
+            <span>ANSYS / COMSOL</span>
+            <span class="t-dot">·</span>
+            <span>Aerospace Manufacturing</span>
+            <span class="t-dot">·</span>
+            <span>Robotics Systems</span>
+            <span class="t-dot">·</span>
+            <span>UAV Design</span>
+            <span class="t-dot">·</span>
+            <span>Composite Materials</span>
+            <span class="t-dot">·</span>
+            <span>CAD / SolidWorks / CATIA</span>
+            <span class="t-dot">·</span>
+            <span>Gazebo Simulation</span>
+            <span class="t-dot">·</span>
+            <span>ANSYS / COMSOL</span>
+            <span class="t-dot">·</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-num">01</span>
+          <span class="label-text">About</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-heading">Engineer at the intersection of<br><em>design, simulation & manufacturing</em></h2>
+            <p>I'm a Mechatronics and Aerospace Manufacturing engineer currently pursuing my MSc at Cranfield University, UK. My work spans robotic systems integration, mechanical design, and simulation-driven engineering.</p>
+            <p>From leading a robotics team to national finals at ABU Robocon, to building airport ramp simulations for autonomous robotics testing at Jaris Technologies, I'm driven by building things that work in the real world.</p>
+            <p>I hold 4 patents and have co-authored research published in peer-reviewed journals on topics from EMI shielding composites to piezoelectric energy harvesting.</p>
+          </div>
+          <div class="about-sidebar">
+            <div class="about-edu-card">
+              <div class="edu-item">
+                <div class="edu-logo">CU</div>
+                <div class="edu-info">
+                  <span class="edu-degree">MSc Aerospace Manufacturing</span>
+                  <span class="edu-school">Cranfield University, UK</span>
+                  <span class="edu-year">2025 – 2026</span>
+                </div>
+              </div>
+              <div class="edu-divider"></div>
+              <div class="edu-item">
+                <div class="edu-logo">VIT</div>
+                <div class="edu-info">
+                  <span class="edu-degree">BTech Mechatronics & Automation</span>
+                  <span class="edu-school">VIT Chennai, India</span>
+                  <span class="edu-year">2021 – 2025 · CGPA 8.69/10</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills-block">
+              <div class="skills-col">
+                <p class="skills-heading">CAD & Simulation</p>
+                <div class="tag-cloud">
+                  <span>SolidWorks</span>
+                  <span>CATIA V5</span>
+                  <span>Fusion 360</span>
+                  <span>Mastercam</span>
+                  <span>ANSYS</span>
+                  <span>COMSOL</span>
+                  <span>XFLR5</span>
+                </div>
+              </div>
+              <div class="skills-col">
+                <p class="skills-heading">Programming & Tools</p>
+                <div class="tag-cloud">
+                  <span>Python</span>
+                  <span>ROS</span>
+                  <span>Gazebo</span>
+                  <span>MATLAB</span>
+                  <span>MS Office</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-num">02</span>
+          <span class="label-text">Experience</span>
+        </div>
+        <h2 class="section-heading">Career History</h2>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-left">
+              <span class="tl-date">Jan 2026 — Present</span>
+              <span class="tl-loc">France (Remote)</span>
+            </div>
+            <div class="tl-connector">
+              <div class="tl-dot active"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <div class="tl-header">
+                <h3>Engineering Intern — Robotics & Airport Automation</h3>
+                <span class="tl-company">Jaris Technology</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Designed a parametric aircraft model in SolidWorks and exported to Gazebo, building a full airport ramp simulation environment for robotics testing.</li>
+                <li>Integrated real-time weather data and wind interaction modelling into Gazebo, increasing simulation accuracy for autonomous robotics testing.</li>
+                <li>Acted as aerospace domain expert, translating aircraft systems and ramp operations knowledge into precise engineering requirements for robotics and software teams.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left">
+              <span class="tl-date">Nov 2025 — Present</span>
+              <span class="tl-loc">Cranfield, UK</span>
+            </div>
+            <div class="tl-connector">
+              <div class="tl-dot active"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <div class="tl-header">
+                <h3>Design & Manufacturing — UAV</h3>
+                <span class="tl-company">UIAS Society, Cranfield University</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Designed fuselage structural components and wing control surfaces in CAD as part of a 3-person design sub-team.</li>
+                <li>Conducted aerodynamic analysis using XFLR5 for wing optimisation; contributed to PDR/CDR documentation and full UAS assembly.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left">
+              <span class="tl-date">Apr 2025 — May 2025</span>
+              <span class="tl-loc">Bengaluru, India</span>
+            </div>
+            <div class="tl-connector">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <div class="tl-header">
+                <h3>Research Intern</h3>
+                <span class="tl-company">DRDO — Centre for Airborne Systems</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Designed and analysed a digitally modelled electronic equipment rack for the Airbus C295 surveillance aircraft using CATIA V5.</li>
+                <li>Performed stress, strain, and thermal simulations in COMSOL Multiphysics, comparing multiple materials and optimising strength-to-weight ratio.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left">
+              <span class="tl-date">Oct 2023 — Dec 2023</span>
+              <span class="tl-loc">Perak, Malaysia</span>
+            </div>
+            <div class="tl-connector">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <div class="tl-header">
+                <h3>Research Intern</h3>
+                <span class="tl-company">Universiti Teknologi PETRONAS</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Developed autonomous drone surveillance algorithms for navigation and object detection, increasing tracking accuracy and flight path efficiency.</li>
+                <li>Collaborated with 5 interns to create and field-test real-time aerial monitoring algorithms.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left">
+              <span class="tl-date">Oct 2022 — May 2024</span>
+              <span class="tl-loc">VIT Chennai, India</span>
+            </div>
+            <div class="tl-connector">
+              <div class="tl-dot"></div>
+              <div class="tl-line last"></div>
+            </div>
+            <div class="tl-card">
+              <div class="tl-header">
+                <h3>Mechanical Lead</h3>
+                <span class="tl-company">Technocrats Robotics</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>Progressed from Mechanical Member to Mechanical Lead within one year; directed design and fabrication of 5 competition robots across ABU Robocon 2023, Robocon 2024, and Technoxian.</li>
+                <li>Led and trained a team of 8 members; guided the team through 3 elimination stages to reach the ABU Robocon national finals.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-num">03</span>
+          <span class="label-text">Projects</span>
+        </div>
+        <h2 class="section-heading">Selected Work</h2>
+        <div class="projects-grid">
+
+          <div class="proj-card proj-featured">
+            <div class="proj-tag">MSc Thesis</div>
+            <h3>Failure Mechanisms of DLC Coatings on IN718</h3>
+            <p>Investigated hydrogen-assisted spallation in DLC-coated IN718 spindle components via SEM, Raman spectroscopy, and thermal cycling. Analysed residual stress and interfacial failure across 6 material candidates.</p>
+            <div class="proj-tags">
+              <span>SEM Analysis</span>
+              <span>Raman Spectroscopy</span>
+              <span>Thermal Cycling</span>
+              <span>IN718</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-tag">Internship · Jaris Technologies</div>
+            <h3>Airport Ramp Simulation</h3>
+            <p>Parametric aircraft model in SolidWorks exported to Gazebo. Full airport ramp simulation environment with real-time weather and wind interaction modelling for autonomous robotics testing.</p>
+            <div class="proj-tags">
+              <span>SolidWorks</span>
+              <span>Gazebo</span>
+              <span>ROS</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-tag">Published Research</div>
+            <h3>EMI Shielding using Recycled PU Foam Composites</h3>
+            <p>Designed and characterised recycled PU foam composites for EMI shielding in UAV electronics. Published in Results in Engineering, July 2025.</p>
+            <div class="proj-tags">
+              <span>Composites</span>
+              <span>EMI Shielding</span>
+              <span>UAV</span>
+            </div>
+            <a href="https://www.researchgate.net/profile/Sai-Charan-B-G" target="_blank" class="proj-link">View Paper ↗</a>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-tag">Patent · 414280-001</div>
+            <h3>Thruster-Attached Multimodal Drone</h3>
+            <p>Multimodal drone with integrated thruster capable of traversing both air and water. Filed Mar 2026.</p>
+            <div class="proj-tags">
+              <span>UAV</span>
+              <span>Propulsion</span>
+              <span>Patent</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-tag">Patent · 202541067488</div>
+            <h3>Robotic Grip Control System</h3>
+            <p>Self-powered gripper generating and storing electrical energy for controllable robotic manipulation operations. Filed Jul 2025.</p>
+            <div class="proj-tags">
+              <span>Robotics</span>
+              <span>Energy Harvesting</span>
+              <span>Patent</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-tag">UAV Society · Cranfield</div>
+            <h3>Fixed-Wing UAS Design</h3>
+            <p>Fuselage structural components and wing control surfaces designed in CAD. Aerodynamic analysis via XFLR5. Contributed to PDR/CDR documentation and full assembly.</p>
+            <div class="proj-tags">
+              <span>CAD</span>
+              <span>XFLR5</span>
+              <span>Aerodynamics</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-num">04</span>
+          <span class="label-text">Research</span>
+        </div>
+        <h2 class="section-heading">Publications & Patents</h2>
+
+        <div class="research-cols">
+          <div class="research-col">
+            <h3 class="research-subhead">Publications</h3>
+            <div class="pub-list">
+              <div class="pub-item">
+                <span class="pub-year">2025</span>
+                <div class="pub-body">
+                  <p class="pub-title">Sustainable additive manufacturing of recycled PU/PLA composites via filament extrusion</p>
+                  <p class="pub-journal">Results in Engineering · Co-author</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">2025</span>
+                <div class="pub-body">
+                  <p class="pub-title">Piezoelectric energy harvesting using flexible PVDF nanocomposite films</p>
+                  <p class="pub-journal">Discover Materials · Co-author</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">2025</span>
+                <div class="pub-body">
+                  <p class="pub-title">Advancements in flexible sensor devices for emerging applications</p>
+                  <p class="pub-journal">ICNMD Conference · Co-author</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">In Review</span>
+                <div class="pub-body">
+                  <p class="pub-title">Multimodal drone design and method thereof</p>
+                  <p class="pub-journal">Manuscript under peer review · <strong>First Author</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-col">
+            <h3 class="research-subhead">Patents</h3>
+            <div class="pub-list">
+              <div class="pub-item">
+                <span class="pub-year">2026</span>
+                <div class="pub-body">
+                  <p class="pub-title">Thruster-Attached Drone That Traverses Air and Water</p>
+                  <p class="pub-journal">No. 414280-001 · Multimodal drone with integrated thruster</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">2025</span>
+                <div class="pub-body">
+                  <p class="pub-title">Robotic Grip Control System</p>
+                  <p class="pub-journal">No. 202541067488 · Self-powered gripper with energy storage</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">2025</span>
+                <div class="pub-body">
+                  <p class="pub-title">Apparatus for Launching Balls with Variable Speed Control</p>
+                  <p class="pub-journal">No. 202541002669 · Pneumatic mechanism with sensor integration</p>
+                </div>
+              </div>
+              <div class="pub-item">
+                <span class="pub-year">2024</span>
+                <div class="pub-body">
+                  <p class="pub-title">De-attachable 3D Printable Adapter</p>
+                  <p class="pub-journal">No. 416158-001 · Modular adapter with expandable plugin slots</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-last" id="contact">
+      <div class="container">
+        <div class="section-label">
+          <span class="label-num">05</span>
+          <span class="label-text">Contact</span>
+        </div>
+        <div class="contact-wrap">
+          <div class="contact-left">
+            <h2 class="section-heading contact-heading">Let's build<br>something<br><em>remarkable.</em></h2>
+            <p class="contact-sub">Open to full-time roles from September 2026 in aerospace manufacturing, robotics systems, or UAV/drone engineering. Also happy to discuss research collaborations.</p>
+            <div class="contact-links">
+              <a href="mailto:bgsaicharan@gmail.com" class="contact-row">
+                <span class="cr-label">Email</span>
+                <span class="cr-val">bgsaicharan@gmail.com ↗</span>
+              </a>
+              <a href="https://linkedin.com/in/saicharanbg" target="_blank" class="contact-row">
+                <span class="cr-label">LinkedIn</span>
+                <span class="cr-val">linkedin.com/in/saicharanbg ↗</span>
+              </a>
+              <a href="https://github.com/saicharanbg" target="_blank" class="contact-row">
+                <span class="cr-label">GitHub</span>
+                <span class="cr-val">github.com/saicharanbg ↗</span>
+              </a>
+              <div class="contact-row no-link">
+                <span class="cr-label">Location</span>
+                <span class="cr-val">Cranfield, Bedfordshire, UK</span>
+              </div>
+              <div class="contact-row no-link">
+                <span class="cr-label">Phone (UK)</span>
+                <span class="cr-val">+44 7810 842541</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <h3>Send a message</h3>
+            <div class="form-row">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="your@email.com" required />
+              </label>
+            </div>
+            <label>
+              Subject
+              <input type="text" name="subject" placeholder="What's this about?" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </label>
+            <button type="submit" class="btn-primary submit-btn">
+              Send Message
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">SC<span class="accent">.</span></span>
+      <span class="footer-copy">© <span id="yr"></span> Sai Charan BG. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/saicharanbg" target="_blank">LinkedIn</a>
+        <a href="https://github.com/saicharanbg" target="_blank">GitHub</a>
+        <a href="https://www.researchgate.net/profile/Sai-Charan-B-G" target="_blank">ResearchGate</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
